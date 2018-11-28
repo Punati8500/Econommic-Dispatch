@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
-# Economic load dispatch at 13:00 Uhr
+# Economic load dispatch at a critical hour
 
-Load=823.65              # Power demand (MWh) at 13:00 Uhr 
-data=pd.read_excel('./input.xlsx')   # data about Gas turbines from the task sheet 
+Load=823.65              # Power demand (MWh) at critical hour 
+data=pd.read_excel('./input.xlsx')   # data about Gas turbines from the input file 
 
 a=data['first']              # a (€) values from fuel cost curves of Gas turbines 
 b=data['second']             # b (€/MWh) values from fuel cost curves of Gas turbines  
